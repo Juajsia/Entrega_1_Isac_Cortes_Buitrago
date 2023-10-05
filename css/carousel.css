@@ -1,0 +1,35 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+#imagen {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.btnc {
+    position: absolute;
+    font-size: large;
+    color: antiquewhite;
+    background-color: #3a3a3a85;
+    width: 60px;
+    height: 53px;
+    background-clip: content-box;
+    border: 0.25rem solid transparent;
+    border: 0.25rem solid transparent;
+    border-radius: 50%;
+}
+
+.btnc:hover {
+    background-color: #3a3a3a;
+}
+
+#avanzar {
+    right: 2px;
+}

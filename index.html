@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/carousel.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <img src="/Assets/LogoVeterinaria.png" alt="" id="logo">
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Reservar cita</a></li>
+                <li><a href="#">Consultar historia clínica </a></li>
+                <li><a href="Pantallas/SobreNosotros.html">Sobre nosotros</a></li>
+            </ul>
+            <img src="Assets/Perfil.png" alt="" id="imgPerfil">
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="Carrusel">
+            <div class="carousel">
+                <button class="btnc" id="retroceder">&#60;</button>
+                <div id="imagen">
+                    <img src="Assets/12_01-Aportes-de-la-tecnologia-para-la-medicina-veterinaria.png"
+                        style="display: none">
+                    <img src="Assets/Tercer-estilo-web-Tecnicos-Laborales_Auxiliar-veterinaria-3343669153.png"
+                        style="display: none">
+                    <img src="Assets/20991-6867662acd00484485112e8a239d0ee5.png" style="display: none">
+
+                </div>
+                <button class="btnc" id="avanzar">&#62;</button>
+            </div>
+        </section>
+
+        <section id="contenidos">
+            <aside>
+                <div class="flotante">
+                    <div class="contacto">
+                        <h3>Contáctanos</h3>
+                        <p>¿Tienes alguna pregunta o comentario? ¡Estamos aquí para ayudarte!</p>
+                        <ul>
+                            <li>Email: ejemplo@example.com</li>
+                            <li>Teléfono: +123456789</li>
+                            <li>Dirección: Calle Ejemplo, Ciudad</li>
+                        </ul>
+                    </div>
+                    <div class="formulario">
+                        <h3>Envíanos un Mensaje</h3>
+                        <form id="formContacto">
+                            <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="inputContacto"
+                                required>
+                            <input type="email" id="email" name="email" placeholder="Correo Electrónico"
+                                class="inputContacto" required>
+                            <textarea id="mensaje" name="mensaje" placeholder="Mensaje" rows="4" class="inputContacto"
+                                required></textarea>
+                            <button type="submit" class="btnEnviar">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </aside>
+
+            <section class="Tarjetas">
+                <article class="card">
+                    <div class="card-container">
+                        <figure>
+                            <img src="Assets/acercamiento-al-medico-veterinario-cuidando-mascota.png" alt="">
+                        </figure>
+                        <div class="article-body">
+                            <h2>Atención Clínica General</h2>
+                            <p>
+                                Para asegurar un diagnóstico adecuado es necesario realizar una evaluación médica de su
+                                mascota. De este modo comenzamos examinando los ojos, los oídos y la piel,
+                                inspeccionando -así mismo- su sistema cardiovascular, neurológico, gastrointestinal y
+                                esquelético para detectar cualquier anormalidad.
+                            </p>
+                            <Button class="btn-card">Saber más</Button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-container">
+                        <figure>
+                            <img src="Assets/que-es-una-veterinaria.png" alt="">
+                        </figure>
+                        <div class="article-body">
+                            <h2>Consulta Médica Especializada</h2>
+                            <p>
+                                Muchos de nuestros pacientes requieren de una evaluación o seguimiento por parte de
+                                nuestros especialistas veterinarios de acuerdo a la complejidad de la problemática
+                                médica clínica y/o quirúrgica a atender.
+                            </p>
+                            <Button class="btn-card">Saber más</Button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-container">
+                        <figure>
+                            <img src="Assets/veterinarian-check-ing-puppy-s-health-2.png" alt="">
+                        </figure>
+                        <div class="article-body">
+                            <h2>Consulta tu historia clínica</h2>
+                            <p>
+                                Olvídate de tener que ir a las sedes físicas a esperar, porque aquí puedes consultar la
+                                historia clínica de tu mascota con un click, desde la comodidad de tu casa.
+                            </p>
+                            <Button class="btn-card">Saber más</Button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-container">
+                        <figure>
+                            <img src="Assets/AboutUS.jpeg" alt="">
+                        </figure>
+                        <div class="article-body">
+                            <h2>Atención 24/7</h2>
+                            <p>
+                                Contamos con servicio de urgencias todo el día, cuenta con nuestra atención en cualquier
+                                momento que tu mascota lo necesite.
+                            </p>
+                            <Button class="btn-card">Saber más</Button>
+                        </div>
+                    </div>
+                </article>
+    </main>
+
+    <footer>
+        <p>© Veterinaria</p>
+        <p>Derechos Reservados</p>
+    </footer>
+
+</body>
+<script src="carousel.js"></script>
+
+</html>
